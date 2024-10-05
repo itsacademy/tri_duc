@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Home {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://preview.colorlib.com/theme/thecharity/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    min-height: 30vh;
+    color: white;
+    text-wrap: balance;
+}
+
+@media (max-width:900px) {
+    .contact-header-div {
+        display: none;
+    }
+
+    .contact-p {
+        display: none;
+    }
+
+    .contact-details {
+        display: none;
+    }
+
+    .header-contact-div{
+        margin: 0 auto;
+    }
+
+    .contact-donate-now-button{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 100%;
+    }   
+}
+
+.contact-header{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-header-div-con{
+    display: flex;
+}
+
+.contact-details:hover{
+    color: white;
+}
+
+.contact-header-div {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.header-contact-div{
+    display: flex;
+}
+
+.contact-donate-now-button {
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-details {
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+}
+
+.contact-header-div-background {
+    background-color: orangered;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    min-height: 90px;
+}
+
+.nav-link2{
+    border-bottom: 4px solid white;
+}
+
+.nav-link2:hover {
+    border-bottom: 4px solid orangered;
+}
+
+.header-links {
+    justify-content: end;
+    font-weight: bold;
+}
+
+.home-border {
+    height: 4px;
+    width: 85px;
+    background-color: orangered;
+}
+
+.padding {
+    padding-top: 80px;
+}
+
+.wel-padding {
+    padding-top: 150px;
+}
+
+.wel-border {
+    height: 4px;
+    width: 85px;
+    background-color: orangered;
+}
+
+.wel-descrip {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.img-wel-pad {
+    padding-top: 120px;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.Read-button2 {
+    padding: 15px 40px 15px 40px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid orangered;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.background-circles {
+    background-color: black;
+    color: white;
+}
+
+.circle-percentage {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author-des {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.quote {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 49px;
+}
+
+.quote2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.author-border {
+    height: 4px;
+    width: 85px;
+    background-color: orangered;
+    margin-bottom: 20px;
+}
+
+.Donate-button {
+    border: 3px solid white;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 40px 15px 40px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.help-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-wrap: balance;
+}
+
+.help-section {
+    background-color: orangered;
+}
+
+.help-flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.help-description {
+    color: white;
+}
+
+.background-footer {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://preview.colorlib.com/theme/thecharity/images/foot-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    max-width: 100%;
+    height: auto;
+}
+
+.description-footer {
+    padding-top: 40px;
+    color: grey;
+}
+
+.Useful-links {
+    color: gray;
+    text-decoration: none;
+}
+
+.Useful-links:hover {
+    color: orangered;
+}
+
+.Useful-links02 {
+    text-decoration: none;
+    color: gray;
+}
+
+.Useful-links02:hover {
+    color: orangered;
+}
+
+.label-Useful {
+    color: orangered;
+}
+
+.links-box {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.links-box2 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.links-box3 {
+    padding-top: 30px;
+}
+
+.links-box4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.footer-text-align {
+    text-wrap: balance;
+    color: gray;
+}
+
+.email-confirmation-button {
+    background-color: orangered;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.input-div {
+    padding-bottom: 30px;
+}
+
+.email-input {
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.icons-footer {
+    padding-right: 10px;
+    color: orangered;
+}
+
+.padding-footing {
+    padding-top: 40px;
+    color: white;
+}
+
+.padding-footing2 {
+    padding-top: 40px;
+    color: gray;
+}
+
+.flex-display2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-text-homepage {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.last {
+    background-color: black;
+    height: auto;
+}
+
+.colorlib-credit {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
