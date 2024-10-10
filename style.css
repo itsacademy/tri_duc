@@ -40,6 +40,10 @@
     }   
 }
 
+.input-contact-header{
+    border: 2px black solid;
+}
+
 .contact-header{
     display: flex;
     justify-content: space-between;

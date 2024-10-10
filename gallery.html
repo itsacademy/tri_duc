@@ -30,7 +30,36 @@
                         </div>
                     </div>
                     <div class="header-contact-div">
-                        <button class="contact-donate-now-button">Donate Now</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="contact-donate-now-button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Donate Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Insert amount of money</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="">$</label>
+                                        <input type="text" class="input-contact-header">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Donate</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -151,7 +180,30 @@
                 </div>
             </div>
             <div class="container button-container">
-                <button class="Donate-button">Load More</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="Donate-button" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Load More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Coming soon</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>We are collecting more pictures</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -217,9 +269,11 @@
                         <p class="padding-footing2"><i class="bi bi-telephone-fill icons-footer"></i>+84 694 206 9420
                         </p>
                         <p class="color-gray"><i class="bi bi-envelope-fill icons-footer"></i>ocgalacothat@gmail.com</p>
-                        <p class="footer-text-align"><i class="bi bi-geo-alt-fill icons-footer"></i>Hanoi, Long Bien, Vietnam</p>
-                        <div class="input-div"><input type="text" class="email-input"><button
-                                class="email-confirmation-button">SEND</button></input></div>
+                        <p class="footer-text-align"><i class="bi bi-geo-alt-fill icons-footer"></i>Hanoi, Long Bien,
+                            Vietnam</p>
+                        <div class="input-div"><input type="text" class="email-input"><a href="contact.html"><button
+                                    class="email-confirmation-button">SEND</button></a></input>
+                        </div>
                     </div>
                 </div>
             </div>

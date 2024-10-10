@@ -29,26 +29,31 @@
         display: none;
     }
 
-    .header-contact-div{
+    .header-contact-div {
         margin: 0 auto;
     }
 
-    .contact-donate-now-button{
+    .contact-donate-now-button {
         padding-top: 15px;
         padding-bottom: 15px;
         height: 100%;
-    }   
+    }
 }
 
-.contact-header{
+.contact-header {
     display: flex;
     justify-content: space-between;
 }
-.contact-header-div-con{
+
+.contact-header-div-con {
     display: flex;
 }
 
-.contact-details:hover{
+.input-contact-header{
+    border: 2px black solid;
+}
+
+.contact-details:hover {
     color: white;
 }
 
@@ -60,7 +65,7 @@
     padding-top: 15px;
 }
 
-.header-contact-div{
+.header-contact-div {
     display: flex;
 }
 
@@ -90,7 +95,7 @@
     min-height: 90px;
 }
 
-.nav-link2{
+.nav-link2 {
     border-bottom: 4px solid white;
 }
 

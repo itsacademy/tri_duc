@@ -90,6 +90,10 @@
     min-height: 90px;
 }
 
+.input-contact-header{
+    border: 2px black solid;
+}
+
 .nav-link2{
     border-bottom: 4px solid white;
 }
